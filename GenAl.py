@@ -76,3 +76,4 @@ print(f"Средняя приспособленность популяции: {a
 print(f"Максимально возможная приспособленность: 100")
 
 perfect_individual = sum(1 for individ in population if fitness(individ) == CHROMOSOME_LENGTH)
+print(f"Идеальных особей в популяции: {perfect_individual}")
